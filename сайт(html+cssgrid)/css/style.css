@@ -1,0 +1,480 @@
+
+
+
+
+*  {
+margin: 0;
+padding: 0;
+}
+
+
+body{
+  font-family: "Fira Sans Light" ;
+
+
+}
+
+.h  {
+
+  font-family: "Fira Sans ExtraBold" ;
+  font-size: 25px;
+}
+
+.h-2 {
+color: white;
+font-size: 18px;
+font-family: "Fira Sans ExtraBold" ;
+}
+
+
+li  {
+ padding-top: 20px;
+}
+
+.items  {
+list-style-type: none;
+
+}
+
+.hero {
+
+  background:  url("HERO-IMAGE.png") center center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr ;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". hero__logo . " " . hero__text .";
+  align-items: center;
+}
+
+.hero__logo  {
+  grid-area: hero__logo;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Fira Sans ExtraBold" ;
+}
+.hero__logo-text  {
+padding-top: 8%;
+
+
+
+
+}
+
+
+.hero__text-small  {
+  padding-top: 3%;
+  font-size: 30px;
+
+}
+
+.hero__text  {
+  grid-area: hero__text;
+  font-size: 50px;
+
+
+}
+
+
+
+
+
+.about  {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  500px  ;
+  grid-template-areas:"about__left-side about__right-side "  ;
+
+
+}
+
+.about__left-side  {
+
+  grid-area: about__left-side;
+}
+
+
+.about__left-side__img  {
+
+  width: 100%;
+  height: 100%;
+
+}
+
+.about__right-side  {
+grid-area: about__right-side;
+background-color:#f3f1ef ;
+
+}
+
+.right-side__h  {
+  color: #666666;
+
+}
+
+.right-side__lowercase  {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #666666;
+  font-size: 30px;
+}
+
+.about__right-text  {
+  padding-top: 10%;
+padding-left: 8%;
+}
+
+.gallery-1  {
+
+  background-color: #3f729b;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr ;
+grid-template-areas:"gallery__img-1 gallery__img-2 gallery__img-3 gallery__img-4" "gallery__inst  gallery__inst  gallery__img-5 ." ;
+
+}
+
+.gallery__img-1 {
+grid-area: gallery__img-1;
+height: auto;
+width:100%;
+
+}
+
+.gallery__img-2 {
+grid-area: gallery__img-2;
+  width:100%;
+height: auto;
+
+}
+.gallery__img-3 {
+grid-area: gallery__img-3;
+width:100%;
+height: auto;
+}
+.gallery__img-4 {
+grid-area: gallery__img-4;
+width:100%;
+height: auto;
+
+}
+
+
+.gallery-2  {
+
+  background-color: #3f729b;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr ;
+grid-template-areas: "gallery__inst  gallery__inst  gallery__img-5 ." ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery__img-5 {
+grid-area: gallery__img-5;
+width:100%;
+height: auto;
+
+
+}
+
+.gallery__inst  {
+grid-area: gallery__inst;
+
+
+ justify-self:center;
+ align-self:center;
+}
+
+.gallery__text   {
+color: white;
+list-style-type: none;
+
+}
+
+
+
+
+
+.gallery__text-h  {
+  font-family: "Fira Sans ExtraBold" ;
+  font-size: 25px;
+
+}
+
+.gallery__text-lowercase  {
+font-size: 30px;
+
+
+}
+
+
+.button  {
+background-color: inherit;
+outline: none;
+color: white;
+letter-spacing:2px;
+font-size: 18px;
+  font-family: "Fira Sans Light" ;
+border-radius: 30px;
+border-style: solid;
+padding: 16px;
+}
+.button:hover  {
+ opacity: 0.6;
+}
+
+
+
+
+
+.music-1  {
+  background-image: url(music.png);
+  background-size: cover;
+display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+grid-template-rows: 500px 400px ;
+grid-template-areas:"  black video ." "  black . ."
+
+
+}
+
+
+
+
+.black {
+background-color:#282b2f;
+  grid-area:   black;
+}
+
+.video  {
+grid-area: video;
+background-color:#212227;
+}
+
+.video-items  {
+  list-style-type: none;
+  padding-top: 20%;
+  padding-left: 10%;
+  color: #2ebd59;
+}
+
+
+
+.video__text-h {
+font-family: "Myriad Pro";
+font-size: 18px;
+}
+
+
+.video__text  {
+font-size: 14px;
+color: white;
+
+}
+
+
+
+
+
+
+.music-2  {
+
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-template-rows: 500px  ;
+grid-template-areas:"  spotify ituns"  ;
+
+
+}
+
+.spotify-items  {
+  list-style-type: none;
+  padding-top: 10%;
+  padding-left: 10%;
+
+}
+
+
+
+.spotify {
+background-color:#2ebd59;
+  grid-area:   spotify;
+  color: white;
+}
+
+
+
+
+.spotify__text  {
+font-size: 36px;
+color: white;
+
+}
+
+
+
+
+
+.ituns  {
+grid-area: ituns;
+color:white;
+background-color:#282b2f;
+}
+
+.ituns-items  {
+  list-style-type: none;
+  padding-top: 10%;
+  padding-left: 10%;
+color:white;
+}
+
+
+
+
+
+
+
+.ituns__text  {
+font-size: 36px;
+
+
+}
+
+.foot  {
+background-color:#212227;
+display: grid;
+
+  grid-column-gap: 50px;
+grid-template-columns:  auto 2fr 1fr   2fr auto;
+
+grid-template-rows: auto;
+grid-template-areas:". foot-1  foot-2  foot-3 . " ". foot-1  foot-4  foot-5 . " ;
+padding-bottom: 20px;
+}
+
+.foot-1 {
+  color: white;
+grid-area: foot-1;
+
+}
+
+.foot-2 {
+grid-area: foot-2;
+
+}
+
+
+.foot-3 {
+grid-area: foot-3;
+
+}
+
+
+.foot-4 {
+grid-area: foot-4;
+
+}
+
+
+
+
+
+
+.AMAZING-items  {
+list-style-type: none;
+padding-top: 100px;
+}
+
+
+
+
+.contacts__h {
+color: white;
+
+
+
+}
+
+.AMAZING__text  {
+font-size: 14px;
+color:#919191;
+
+
+}
+.AMAZING__rights  {
+font-size: 14px;
+
+color:#919191;
+
+}
+
+
+
+.contacts-items  {
+list-style-type: none;
+padding-top: 100px;
+}
+
+
+
+
+.contacts__text  {
+font-size: 14px;
+color:#919191;
+
+
+}
+
+.follow__text  {
+font-size: 14px;
+
+color:#919191;
+
+}
+
+.SUBSCRIBE-items  {
+padding-top: 100px;
+
+}
+
+.SUBSCRIBE__text  {
+font-size: 14px;
+
+color:#919191;
+
+}
+
+
+.emeil {
+
+  outline: none;
+background-color: #4d4e52;
+color: white;
+width: 250px;
+letter-spacing:2px;
+font-size: 14px;
+  font-family: "Fira Sans Light" ;
+padding: 16px;
+}
