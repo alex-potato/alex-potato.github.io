@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,800&display=swap&subset=cyrillic" rel="stylesheet">
+
+  <title>Css-grid</title>
+
+</head>
+
+
+<body>
+
+  <header class="hero" id="about">
+    <div class="hero__logo">
+        <p class="hero__logo-text">/.</p>
+    </div>
+
+
+
+
+    <dropdown class="nav">
+      <input id="toggle2" type="checkbox">
+      <label for="toggle2" class="animate"><i class="fa fa-bars fa-4x float-right"></i></label>
+      <ul class="animate">
+        <li class="animate"><a href="#about">About</a><i class=" float-right"></i></li>
+        <li class="animate"><a href="#sport">Sport</a><i class=" float-right"></i></li>
+        <li class="animate"><a href="#music">Music</a><i class=" float-right"></i></li>
+        <li class="animate"><a href="#contacts">Contacts</a><i class=" float-right"></i></li>
+      </ul>
+    </dropdown>
+
+
+    <div class="hero__text">
+      <p>Amazing Dude. <br/>Amazing Life.</p>
+      <p class="hero__text-small"> Welcome to the personal site of John Doe.<br/> A professional skier and musician.</p>
+    </div>
+  </header>
+
+  <section class="about" id="sport">
+    <div class="about__left-side">
+      <img class="about__left-side__img"src="img/PHOTO.png" alt="">
+    </div>
+    <div class="about__right-side">
+      <div class="about__right-text">
+        <p class="right-side__h">Sed faucibus quis</p>
+        <p class="right-side__lowercase">Fusce bibendum luctus massa,<br/>
+        ut tincidunt lectus tincidunt in. <br/>
+        Nulla tristique ipsum vitae lacus <br/>
+        ullamcorper, at dictum nunc <br/>
+        scelerisque.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-1">
+    <img class="gallery__img-1" src="img/gallery1.png" alt="">
+    <img class="gallery__img-2" src="img/gallery2.png" alt="">
+    <img class="gallery__img-3" src="img/gallery3.png" alt="">
+    <img class="gallery__img-4" src="img/gallery4.png" alt="">
+  </section>
+
+  <section class="gallery-2">
+      <img class="gallery__img-5" src="img/gallery5.png" alt="">
+
+    <div class="gallery__inst">
+      <ul class="items gallery__text">
+        <li class="h gallery__text-h">INSTAGRAM</li>
+        <li class="gallery__text-lowercase">Etiam lacus dolor, tincidunt vitae<br/>  nisi in, vulputate placerat odio.<br/>
+           Pellentesque iaculis.</li>
+        <li class="gallery__button">
+          <a href="">  <button class="button button-inst" type="button" name="button" >VIEW ON INSTAGRAM</button></a>
+        </li>
+     </ul>
+    </div>
+  </section>
+  
+  <section class="music-1" id="music">
+    <div class="items grid-item  black"></div>
+    <div class="gred-item video ">
+      <ul class="video-items">
+        <li class="h video__h">Self-Effacing Rage</li>
+        <li class="video__text-h">FT. Fascinating Collision </li>
+        <li class="video__text">Director: James G. Rohrer<br/>
+           Production Company: Sycamorebr <br/>
+           Producer: Laura S. Carlton<br/>
+           Executive Producer: Jack M. Heckart</li>
+        <li>  <button class="button button-music-1" type="button" name="button">click to play<i class="fa fa-caret-right fa-mx" aria-hidden="true"></i></button></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="music-2">
+    <div class=" gred-item  spotify">
+      <ul class="items spotify-items">
+        <li class="h spotify__h">SPOTIFY</li>
+        <li class="text spotify__text">Follow me, stream and add <br/>
+          my songs to your Spotify playlist.</li>
+        <li>  <button class="button button-spotify" type="button" name="button">FOLLOW ON SPOTIFY</button></li>
+      </ul>
+    </div>
+
+
+
+    <div class=" gred-item  ituns">
+     <ul class="items ituns-items">
+       <li class="h ituns__h">ITUNES</li>
+       <li class="text ituns__text">Buy and download my songs<br/>
+            from iTunes.</li>
+       <li>  <button class="button button-music-ituns" type="button" name="button">click to play</button></li>
+     </ul>
+    </div>
+  </section>
+
+
+  <footer class="foot" id="contacts">
+    <div class="foot-1">
+      <ul class="items AMAZING-items">
+        <li class="h-2 AMAZING__h">AMAZING DUDE.<br/>
+        AMAZING LIFE.</li>
+        <li class="text AMAZING__text">auris ornare lobortis arcu, at sodales dolor
+           finibus nec. In convallis risus ligula, bibendum
+           sagittis ante cursus vitae. Donec ornare, dui nec sagittis imperdiet, nunc eros dignissim augue, ut aliquam nibh felis sit amet leo. Vivamus eu tincidunt tellus. Vestibulum quis condimentum lectus, nec aliquet lectus. Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque. Phasellus in scelerisque elit, eu ultricies mauris.
+        </li>
+        <li class="text AMAZING__rights">Ⓒ2015. all rights reserved.  </li>
+       </ul>
+     </div>
+     <div class="foot-2">
+       <ul class="items contacts-items">
+         <li class="h-2 contacts__h">CONTACT ME</li>
+           <li class="text contacts__text item-1">1242 Crestview Terrace<br/>
+           Artesia Wells, TX 78001
+           </li>
+           <li class="text contacts__text item-2">Phone: 830-676-7974<br/>
+           Email: halo@sitename.com
+           </li>
+       </ul>
+     </div>
+     <div class="foot-3">
+       <ul class="items SUBSCRIBE-items">
+         <li class="h-2 SUBSCRIBE__h">SUBSCRIBE</li>
+           <li class="text SUBSCRIBE__text SUBSCRIBE__text__item-1">Duis sollicitudin facilisis dui ac aliquet.
+             Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum.
+             Vestibulum viverra commodo nunc eu pellentesque.</li>
+           <li class="text SUBSCRIBE__text item-2">
+             <div class="form__emeil">
+               <input class="emeil" type="Email" placeholder="ENTER YOUR EMEIL ADDRES">
+               <button class="button button-emaile" type="submit" name="button"><i class="fa fa-arrow-circle-right fa-lg " aria-hidden="true"></i></button>
+             </div>
+           </li>
+       </ul>
+     </div>
+
+    <div class="foot-4">
+      <ul class="items follow-items">
+        <li class="h-2 follow__h">FOLLOW ME ON</li>
+        <li class="text follow__text item-1"><i class="fa fa-facebook-official fa-mx" aria-hidden="true"></i>FACEBOOK</li>
+        <li class="text follow__text item-2"><i class="fa fa-twitter fa-mx" aria-hidden="true"></i>TWITTER</li>
+        <li class="text follow__text item-3"><i class="fa fa-instagram fa-mx" aria-hidden="true"></i>NSTAGRAM</li>
+        <li class="text follow__text item-4"><i class="fa fa-spotify fa-mx" aria-hidden="true"></i>SPOTIFY</li>
+      </ul>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
